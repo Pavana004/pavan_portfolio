@@ -425,8 +425,6 @@
       @media (max-width: 768px) {
         .typewriter-container {
           font-size: 28px;
-          text-align: center;
-          padding: 0 20px;
         }
       }
 
@@ -570,7 +568,11 @@
           grid-column: span 12;
         }
       }
-
+      .hero-bg {
+        background-position: 80% 0%;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
       .tag-row {
         display: flex;
         flex-wrap: wrap;
@@ -681,6 +683,12 @@
         gap: 18px;
       }
       @media (max-width: 720px) {
+        .hero-bg {
+          background-position: 80% 0%;
+          background-size: cover;
+          background-repeat: no-repeat;
+          filter: blur(1px);
+        }
         .proj-grid {
           grid-template-columns: 1fr;
         }
